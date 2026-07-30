@@ -1,8 +1,29 @@
 aid: medwing
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medwing.png
 name: Medwing
-description: 'Medwing is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  MEDWING is Germany's largest digital service platform for jobs and staffing in the
+  healthcare sector, founded in 2017 and headquartered in Berlin. It operates a
+  recruitment marketplace that matches hospitals, clinics and care facilities with
+  nurses, caregivers, doctors, midwives, pharmacists and other healthcare
+  professionals across Germany and the United Kingdom. Beyond permanent placement,
+  MEDWING combines career brokerage with temporary-staffing (Zeitarbeit) operations
+  and HR/workforce tooling, offering an end-to-end digital workflow that spans job
+  search, matching, contracts, digital signatures and timesheets. The service is free
+  for candidates, with employers paying on successful placement. MEDWING is backed by
+  Northzone and other investors. This profile was enriched from public web sources;
+  MEDWING does not currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/medwing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Healthcare
+- Recruitment
+- Staffing
+- Nursing
+- HR Tech
+- Marketplace
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +50,28 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/medwing-domain-security.yml
 - type: Website
   url: https://medwing.com
+- type: Blog
+  url: https://medwing.com/de/de/magazine
+- type: Pricing
+  url: https://medwing.com/de/de/arbeitgeber
+- type: SignUp
+  url: https://flow.medwing.com
+- type: Login
+  url: https://my.medwing.com
+- type: About
+  url: https://medwing.com/de/ueber-uns
+- type: Press
+  url: https://medwing.com/de/de/ueber-medwing/presse
+- type: LLMsTxt
+  url: llms/medwing-llms.txt
+- type: WellKnown
+  url: well-known/medwing-well-known.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1
