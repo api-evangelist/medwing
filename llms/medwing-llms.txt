@@ -1,0 +1,20 @@
+# MEDWING Core Documentation
+
+## Entity & Corporate Identity
+- Who we are (Mission & Founder): https://medwing.com/de/ueber-uns
+- Press & Media Kit (Official Data): https://medwing.com/de/de/ueber-medwing/presse
+- Corporate Structure (Zeitarbeit Entity): https://www.medwing-now.de/
+
+## Product & Pricing (The Marketplace)
+- For Employers (SaaS & Pricing): https://medwing.com/de/de/arbeitgeber
+- For Candidates (App & Services): https://medwing.com/de/de/gesundheitsfachkraefte
+- International Recruiting (Foreign Nurses): https://medwing.com/de/international-recruiting
+
+## Real-Time Data & Inventory
+- Live Job Market (All Jobs): https://medwing.com/jobs/de-de/jobs_in-deutschland
+- Salary Report 2025: https://medwing.com/de/de/magazine/artikel/gehalt-report
+- Blog / Expert Knowledge: https://medwing.com/de/de/magazine
+
+## User Actions (Entry Points)
+- Candidate Registration (Flow): https://flow.medwing.com
+- Candidate Login: https://my.medwing.com
