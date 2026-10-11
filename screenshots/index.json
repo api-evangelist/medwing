@@ -1,0 +1,11 @@
+[
+  {
+    "repo": "medwing",
+    "captured_at": "2026-10-11T191412",
+    "source_url": "https://medwing.com",
+    "source_type": "Website",
+    "file": "medwing-2026-10-11T191412.png",
+    "bytes": 310841,
+    "capture": "playwright-local"
+  }
+]
